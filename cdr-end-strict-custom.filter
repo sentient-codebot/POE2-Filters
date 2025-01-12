@@ -2686,3 +2686,26 @@ Show # $type->anyremaining $tier->restex
 	PlayAlertSound 3 300
 	PlayEffect Pink
 	MinimapIcon 0 Pink Circle
+
+#===============================================================================================================
+# [[1304 Extended]] Additional Valuable High iLvl Bases (Added 2025-01-12)
+#===============================================================================================================
+
+Show # Level 79+ T1 Bases - Extended
+	Mirrored False
+	Corrupted False
+	ItemLevel >= 79
+	Rarity Normal Magic
+	BaseType == "Attuned Wand" "Rattling Sceptre" "Siphoning Wand" "Stellar Amulet" "Expert Studded Vest" "Expert Slicing Quarterstaff"
+	SetFontSize 45
+	SetBorderColor 255 125 0 160
+	PlayAlertSound 2 300
+	PlayEffect Grey
+	MinimapIcon 0 Grey Diamond
+
+Show #T1 Jewellery
+	Mirrored False
+	Corrupted False
+	ItemLevel >= 82
+	Rarity Normal Magic
+	BaseType == "Bloodstone Amulet" "Solar Amulet" "Lunar Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Stellar Amulet" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Amethyst Ring" "Prismatic Ring" "Pearl Ring" "Rawhide Belt" "Utility Belt" "Golden Charm" "Stone Charm" "Thawing Charm" "Dousing Charm" "Antidote Charm"
