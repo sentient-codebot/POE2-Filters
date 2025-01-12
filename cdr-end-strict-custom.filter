@@ -1167,17 +1167,18 @@ Show # %D6 $type->waystones->enchanted $tier->t1
 	MinimapIcon 0 Purple Square
 	PlayAlertSound 5 300
 
-Show # %D5 $type->waystones->enchanted $tier->any
-	AnyEnchantment True
-	WaystoneTier >= 11
-	Class == "Waystones"
-	SetFontSize 45
-	SetTextColor 131 131 131 255
-	SetBorderColor 117 117 117 255
-	SetBackgroundColor 220 200 225 255
-	PlayEffect Purple
-	MinimapIcon 0 Purple Square
-	PlayAlertSound 1 300
+# (Updated 2025-01-12 - Hide tier 11-13)
+# Show # %D5 $type->waystones->enchanted $tier->any
+# 	AnyEnchantment True
+# 	WaystoneTier >= 11
+# 	Class == "Waystones"
+# 	SetFontSize 45
+# 	SetTextColor 131 131 131 255
+# 	SetBorderColor 117 117 117 255
+# 	SetBackgroundColor 220 200 225 255
+# 	PlayEffect Purple
+# 	MinimapIcon 0 Purple Square
+# 	PlayAlertSound 1 300
 
 #===============================================================================================================
 # [[3100]] Normal Waystones
