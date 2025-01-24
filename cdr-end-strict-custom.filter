@@ -456,12 +456,12 @@ Show #T1 Jewellery
 # [[1304 Extended]] Additional Valuable High iLvl Bases (Added 2025-01-12)
 #===============================================================================================================
 
-Show # Level 79+ T1 Bases - Extended
+Show # Level 81+ T1 Bases - Extended
 	Mirrored False
 	Corrupted False
-	ItemLevel >= 79
+	ItemLevel >= 81
 	Rarity Normal Magic
-	BaseType == "Attuned Wand" "Rattling Sceptre" "Siphoning Wand" "Stellar Amulet" "Expert Studded Vest" "Expert Slicing Quarterstaff"
+	BaseType == "Attuned Wand" "Siphoning Wand" "Stellar Amulet" "Expert Studded Vest" "Expert Slicing Quarterstaff"
 	SetFontSize 45
 	SetBorderColor 255 125 0 160
 	PlayAlertSound 2 300
